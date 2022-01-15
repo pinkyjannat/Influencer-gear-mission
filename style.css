@@ -4,24 +4,25 @@
 /* common style */
 body{
     font-family: 'Poppins', sans-serif;
+    padding:2%;
+    margin: 0%;
+    
 }
 /* header */
 .header-part{
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 .head-title{
     margin-top: 87px;
-    margin-left: 120px;
-    font-size: 40px;
-    
+    margin-left: 100px;
+    font-size: 40px;  
 }
 /* nav */
 .navbar{
     margin-top:95px;
     justify-content: center;
-    
-
 }
 nav a{
     text-decoration: none;
@@ -30,14 +31,13 @@ nav a{
     font-size: 30px;
     font-weight: 300;
 }
+/* main */
 .top-part{
-    display: flex;
-    
+    display:flex;
+    justify-content: space-between;
 }
 .half-width{
-    width:50%;
     padding:10px;
-    padding-left: 120px;
 }
 h1{
     font-size: 60px;
@@ -48,8 +48,8 @@ p{
     font-weight:300;
 }
 .half-width img{
-    width:100%;
-    padding-right:165px;
+    position:relative;
+    margin-right: 50px;
 }
 button {
     background-color:rgb(193, 26, 101) ;
@@ -63,5 +63,68 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     position: absolute;
-
   }
+  /* collection style */
+ .container{
+     padding-top:200px;
+    padding-left: 196px;
+    padding-right: 196px;
+ }
+ .section-title{
+     text-align: center;
+ }
+.collections {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+ }
+ .collection{
+     margin: 5%;
+     padding:5%;
+    background-color: white;
+    box-shadow: 0px 0px 5px #aaaaaa;
+ }
+  .collection .collection-banner img {
+    width: 285px;
+    height: 256px;
+    
+  }
+  .collection-details{
+      display:flex;
+      align-items: center;
+  }
+  .fa-star{
+   color:#FB8200;
+   width: 16px;
+   height: 16px; 
+ }
+ .see-more{
+     position:relative;
+     background-color:white;
+     color:rgb(235, 31, 133);
+     border-style: hidden;
+     float:right;
+ }
+ /* bottom part */
+ .bottom-part{
+     display:flex;
+     justify-content: space-between;
+ }
+ .half-width-bottom{
+     max-width:50%;
+     padding:30px;
+     margin:5px;
+ }
+ .bottom-image{
+    position: relative;
+    padding-right: 60px;
+ }
+ /* footer */
+ .footer-part{
+     background-color: rgb(12, 8, 56);
+     color:blanchedalmond;
+     text-align: center;
+     padding:10px;
+     margin-top: 80px;
+    }
+
+     
