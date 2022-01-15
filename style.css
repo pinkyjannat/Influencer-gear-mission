@@ -47,9 +47,17 @@ p{
     font-size:20px;
     font-weight:300;
 }
+.camera-image{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
 .half-width img{
     position:relative;
     margin-right: 50px;
+}
+.camera-image:hover{
+     transform: scale(1.2) rotate(10deg);
+     transition: transform 2s ease-in-out;
 }
 button {
     background-color:rgb(193, 26, 101) ;
